@@ -1,0 +1,26 @@
+mở file sudo gedit/nano
+	+ mở file host : /etc/hosts
+mkdir luan : tạo mới folder
+touch text.txt : tạo mới 1 file
+
+docker-compose down : xóa docker composer
+docker-composo up -d : start docker composer
+sudo service docker restart : restart docker
+sudo docker ps
+sudo docker exec -it d8ba02bf3ef2 bash
+service docker start : mở quyền admin docker
+
+crtl + alt + shilft + r : video
+alt f1 : open activities
+
+-composer create-project --prefer-dist laravel/laravel:^7.0 blog : create project laravel
+-php artisan migrate --path=/app/database/migrations/** : run one migration
+-- cách chạy để chạy migrate k bị lỗi nên đổi ngày tháng của file migration lại file cha ngày nhỏ - chạy trước, file con ngày lớn - chạy sau. 
+-Route:resoure : chạy các lệnh thêm sửa xóa delete laravel
+-{{ Route(baiviet.store)}}
+-return redirect()->route('baiviet.create')->with('msg','right');
+-$faker = Faker\Factory::create(); : tạo ngẫu nhiên 1 đoạn text hay số hay chuỗi ...
+- middleware(['a','a1']);
+
+
+sudo chmod 777 -R nam-file or folder : quyền admin
